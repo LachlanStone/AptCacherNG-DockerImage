@@ -4,13 +4,13 @@
   tasks:
   - name: Create a directory apt-script if it does not exist
     ansible.builtin.file:
-      path: /mnt/apt-script
+      path: /opt/apt-script
       state: directory
       mode: '0777'
   - name: Copy Script to System
     ansible.builtin.copy:
       src: ~/Apt-Proxy-Setup/apt-proxy-detect.sh
-      dest: /mnt/apt-script/apt-proxy-detect.sh
+      dest: /opt/apt-script/apt-proxy-detect.sh
       owner: root
       mode: '0777'
   - name: Make Proxy File
