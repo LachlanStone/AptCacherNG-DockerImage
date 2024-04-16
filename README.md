@@ -32,7 +32,7 @@ If you find this image useful here's how you can help:
 
 ## Building the Image
 
-The `DockerFile` can be found under the [Image](../../tree/main/Image) section of this image.
+The `DockerFile` can be found under the [Image](../../tree/main/Docker-Image) section of this image.
 ~
 You can run the script bellow to create a new version of the docker image with any modification that you have added.
 
@@ -47,7 +47,7 @@ This Docker File has the [Proxmox HyperVisor](https://www.proxmox.com/en/proxmox
 | Proxmox HyperVisor | <http://download.proxmox.com/debian/pve> | backends_debian
 | Proxmox Backup Server | <http://download.proxmox.com/debian/pbs> | backends_debian
 
-If you want any other specific repository added please create a [issue](../..//issues)
+If you want any other specific repository added please create a [issue](../../issues?q=is%3Aopen+is%3Aissue)
 
 ## Build Scripts that are used
 
@@ -67,7 +67,7 @@ It also setups the directory for the correct permission for writing the required
 
 ## Quickstart
 
-Start Apt-Cacher-NG using the `Docker-Compose.yml` file located under the [Apt-Cache-NG-Compose](../../tree/main/Apt-Cacher-NG-Compose).
+Start Apt-Cacher-NG using the `Docker-Compose.yml` file located under the [Docker-Compose-Example](../../tree/main/Docker-Compose-Example).
 
 The Compose file can be modified and then ran via
 
